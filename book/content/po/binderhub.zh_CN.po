@@ -1,30 +1,34 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Tony Yang <tony@tony.tc>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tony Yang <tony@tony.tc>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: content\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-02-05 15:59:16+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Tony Yang <tony@tony.tc>\n"
-"Language-Team: zh_CN <tony@tony.tc>\n"
-"Language: \n"
+"POT-Creation-Date: 2020-02-05 19:08:03+0000\n"
+"PO-Revision-Date: 2020-02-05 19:14+0000\n"
+"Last-Translator: Tony Yang <tony@tony.tc>, 2020\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/theturingway/teams/107052/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 # header
 #: binderhub/binderhub.md:1
 msgid "# BinderHub"
-msgstr ""
+msgstr "# BinderHub"
 
 # header
 #: binderhub/binderhub.md:3
 msgid "## Prerequisites / recommended skill level"
-msgstr ""
+msgstr "## 先决知识水平"
 
 #: binderhub/binderhub.md:5
 msgid "| Prerequisite | Importance | Notes |"
@@ -41,10 +45,11 @@ msgstr ""
 
 #: binderhub/binderhub.md:8
 msgid ""
-"| [Reproducible Environments](/reproducible_environments/"
-"reproducible_environments) | Very Important | Particularly read the section "
-"on [Binder](https://the-turing-way.netlify.com/reproducible_environments/"
-"reproducible_environments.html#Binder_section). |"
+"| [Reproducible "
+"Environments](/reproducible_environments/reproducible_environments) | Very "
+"Important | Particularly read the section on [Binder](https://the-turing-"
+"way.netlify.com/reproducible_environments/reproducible_environments.html#Binder_section)."
+" |"
 msgstr ""
 
 # header
@@ -104,8 +109,8 @@ msgstr ""
 # unordered list
 #: binderhub/binderhub.md:21
 msgid ""
-"  - [What happens when a Binder link is clicked?](#what-happens-when-a-"
-"binder-link-is-clicked)"
+"  - [What happens when a Binder link is clicked?](#what-happens-when-a"
+"-binder-link-is-clicked)"
 msgstr ""
 
 # unordered list
@@ -144,10 +149,12 @@ msgstr ""
 
 #: binderhub/binderhub.md:30
 msgid ""
-"This chapter will discuss [BinderHub](https://binderhub.readthedocs.io/en/"
-"latest/index.html), which is the cloud technology powering [Binder](https://"
-"mybinder.readthedocs.io/en/latest/)."
-msgstr "这章将会讨论"
+"This chapter will discuss "
+"[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html), which is"
+" the cloud technology powering "
+"[Binder](https://mybinder.readthedocs.io/en/latest/)."
+msgstr ""
+"这章将会介绍[Binder](https://mybinder.readthedocs.io/en/latest/)的在线云版本[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)。"
 
 #: binderhub/binderhub.md:31
 msgid ""
@@ -212,8 +219,8 @@ msgstr ""
 #: binderhub/binderhub.md:48
 msgid ""
 "Binder, as a user interface, is useful for reproducibility because the code "
-"needs to be version controlled and the computational environment needs to be "
-"documented in order to benefit from the functionality of Binder."
+"needs to be version controlled and the computational environment needs to be"
+" documented in order to benefit from the functionality of Binder."
 msgstr ""
 
 #: binderhub/binderhub.md:49
@@ -231,8 +238,8 @@ msgstr ""
 
 #: binderhub/binderhub.md:52
 msgid ""
-"Learn more about Continuous Integration in [this chapter](/"
-"continuous_integration/continuous_integration)."
+"Learn more about Continuous Integration in [this "
+"chapter](/continuous_integration/continuous_integration)."
 msgstr ""
 
 # header
@@ -254,10 +261,11 @@ msgstr ""
 
 #: binderhub/binderhub.md:60
 msgid ""
-"| ![/figures/cloud_neutral_binderhub.png](https://zenodo.org/api/iiif/v2/"
-"e4125eaf-"
-"b456-4097-85fc-6a2e80482d1c:96c70193-2f9e-442d-8cf8-21485d8864e1:1728_TURI_Book"
-"%20sprint_45%20repo2docker_040619_v2_MK.jpg/full/750,/0/default.jpg) |"
+"| "
+"![/figures/cloud_neutral_binderhub.png](https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097"
+"-85fc-6a2e80482d1c:96c70193-2f9e-442d-"
+"8cf8-21485d8864e1:1728_TURI_Book%20sprint_45%20repo2docker_040619_v2_MK.jpg/full/750,/0/default.jpg)"
+" |"
 msgstr ""
 
 #: binderhub/binderhub.md:61
@@ -267,8 +275,8 @@ msgstr ""
 #: binderhub/binderhub.md:62
 msgid ""
 "| A representation of the BinderHub architecture. This image was created by "
-"[Scriberia](http://www.scriberia.co.uk/) for The Turing Way community and is "
-"used under a CC-BY licence. |"
+"[Scriberia](http://www.scriberia.co.uk/) for The Turing Way community and is"
+" used under a CC-BY licence. |"
 msgstr ""
 
 # header
@@ -302,8 +310,8 @@ msgstr ""
 #: binderhub/binderhub.md:73
 msgid ""
 "[Kubernetes](https://kubernetes.io/) is a system for automating deployment, "
-"scaling (making more or fewer copies), and management of containers across a "
-"compute cluster (it doesn't have to be cloud-based)."
+"scaling (making more or fewer copies), and management of containers across a"
+" compute cluster (it doesn't have to be cloud-based)."
 msgstr ""
 
 #: binderhub/binderhub.md:74
@@ -335,8 +343,9 @@ msgstr ""
 
 #: binderhub/binderhub.md:81
 msgid ""
-"For example, the Helm Chart for BinderHub is available [here](https://"
-"jupyterhub.github.io/helm-chart/#development-releases-binderhub)."
+"For example, the Helm Chart for BinderHub is available "
+"[here](https://jupyterhub.github.io/helm-chart/#development-releases-"
+"binderhub)."
 msgstr ""
 
 # header
@@ -358,8 +367,8 @@ msgstr ""
 
 #: binderhub/binderhub.md:87
 msgid ""
-"However, the JupyterHub can be further customised to provide greater control "
-"over the operation of the BinderHub."
+"However, the JupyterHub can be further customised to provide greater control"
+" over the operation of the BinderHub."
 msgstr ""
 
 # header
@@ -369,9 +378,9 @@ msgstr ""
 
 #: binderhub/binderhub.md:91
 msgid ""
-"[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) is "
-"a tool that automatically builds a Docker image from a code repository given "
-"a configuration file."
+"[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) is"
+" a tool that automatically builds a Docker image from a code repository "
+"given a configuration file."
 msgstr ""
 
 #: binderhub/binderhub.md:92
@@ -382,8 +391,8 @@ msgstr ""
 
 #: binderhub/binderhub.md:93
 msgid ""
-"All the software required to run the code will also be preinstalled from the "
-"configuration file."
+"All the software required to run the code will also be preinstalled from the"
+" configuration file."
 msgstr ""
 
 #: binderhub/binderhub.md:95
@@ -412,8 +421,8 @@ msgstr ""
 # ordered list
 #: binderhub/binderhub.md:101
 msgid ""
-"3. **If a Docker image is not found**, BinderHub requests resources from the "
-"Kubernetes cluster to run repo2docker to do the following:"
+"3. **If a Docker image is not found**, BinderHub requests resources from the"
+" Kubernetes cluster to run repo2docker to do the following:"
 msgstr ""
 
 # unordered list
@@ -541,22 +550,22 @@ msgstr ""
 #: binderhub/binderhub.md:132
 msgid ""
 "If you are deploying a cloud-hosted BinderHub on behalf of your "
-"organisation, you may need specific permissions on your organisation's cloud "
-"platform subscription."
+"organisation, you may need specific permissions on your organisation's cloud"
+" platform subscription."
 msgstr ""
 
 #: binderhub/binderhub.md:133
 msgid ""
-"Which permissions you require will vary based on the cloud platform you have "
-"access to and your IT Services policies."
+"Which permissions you require will vary based on the cloud platform you have"
+" access to and your IT Services policies."
 msgstr ""
 
 #: binderhub/binderhub.md:134
 msgid ""
 "At minimum, you'll need to be able to assign [Role Based Access Control "
-"(RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/"
-"overview) to your resources so they can act autonomously in order to manage "
-"user traffic."
+"(RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-"
+"control/overview) to your resources so they can act autonomously in order to"
+" manage user traffic."
 msgstr ""
 
 # header
@@ -572,8 +581,8 @@ msgstr ""
 # unordered list
 #: binderhub/binderhub.md:139
 msgid ""
-"- [BinderHub documentation](https://binderhub.readthedocs.io/en/latest/index."
-"html)"
+"- [BinderHub "
+"documentation](https://binderhub.readthedocs.io/en/latest/index.html)"
 msgstr ""
 
 # unordered list
@@ -626,7 +635,8 @@ msgid ""
 "| Docker registry | A storage and distribution system for named Docker "
 "images. The registry allows Docker users to pull images locally, as well as "
 "push new images to the registry (given adequate access permissions when "
-"applicable). Such systems are often hosted in the cloud for ease of access. |"
+"applicable). Such systems are often hosted in the cloud for ease of access. "
+"|"
 msgstr ""
 
 #: binderhub/binderhub.md:151
@@ -652,7 +662,8 @@ msgid "| JupyterHub | A multi-user server for Jupyter Notebook instances. |"
 msgstr ""
 
 #: binderhub/binderhub.md:156
-msgid "| repo2docker | A tool to build Docker images from code repositories. |"
+msgid ""
+"| repo2docker | A tool to build Docker images from code repositories. |"
 msgstr ""
 
 # header
@@ -663,8 +674,8 @@ msgstr ""
 # unordered list
 #: binderhub/binderhub.md:160
 msgid ""
-"- **Kubernetes documentation**: [https://kubernetes.io/](https://kubernetes."
-"io/)"
+"- **Kubernetes documentation**: "
+"[https://kubernetes.io/](https://kubernetes.io/)"
 msgstr ""
 
 # unordered list
@@ -675,14 +686,15 @@ msgstr ""
 # unordered list
 #: binderhub/binderhub.md:162
 msgid ""
-"- **repo2docker**: [https://repo2docker.readthedocs.io/en/latest/?"
-"badge=latest](https://repo2docker.readthedocs.io/en/latest/?badge=latest)"
+"- **repo2docker**: "
+"[https://repo2docker.readthedocs.io/en/latest/?badge=latest](https://repo2docker.readthedocs.io/en/latest/?badge=latest)"
 msgstr ""
 
 # unordered list
 #: binderhub/binderhub.md:163
 msgid ""
-"- **Microsoft Azure documentation on Role Based Access Control**: [https://"
-"docs.microsoft.com/en-us/azure/role-based-access-control/overview](https://"
-"docs.microsoft.com/en-us/azure/role-based-access-control/overview)"
+"- **Microsoft Azure documentation on Role Based Access Control**: "
+"[https://docs.microsoft.com/en-us/azure/role-based-access-"
+"control/overview](https://docs.microsoft.com/en-us/azure/role-based-access-"
+"control/overview)"
 msgstr ""
